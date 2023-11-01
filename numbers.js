@@ -3,7 +3,12 @@ export const calculateDistance = (x1, x2) => {
     return Math.abs(x1 - x2);
 };
 // 2 задача //
-export const calculateSegmentProduct = () => {}
+export const calculateSegmentProduct = (A, B, C) => {
+    const dlinaAC = Math.abs(C - A);
+    const dlinaBC = Math.abs(B - C);
+    const itog = dlinaAC * dlinaBC
+    return itog
+}
 // 3 задача //
 export const calculateKilobytes = () => {}
 // 4 задача //
